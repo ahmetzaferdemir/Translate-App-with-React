@@ -1,0 +1,20 @@
+.main {
+    margin-top: 100px;
+    min-height: max-content;
+}
+
+.inputFieldDiv,
+.outputFieldDiv {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    padding: 15px;
+    resize: none;
+}
